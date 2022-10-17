@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(102, 109, 162);
+}
+
+img{
+    width: 30%;
+    height: 50%;
+    margin: auto;
+}    
+
+
+#art1 > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+article {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px ;
+    background-color:rgb(127, 136, 200);
+    
+
+}

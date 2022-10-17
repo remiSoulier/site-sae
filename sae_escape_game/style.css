@@ -2,17 +2,33 @@ body{
     background-color: rgb(102, 109, 162);
 }
 
-img{
+.img1{
     width: 30%;
-    height: 50%;
-    margin: auto;
-}    
+    margin-right: auto;
+    margin-left: auto;
+}
+.img2{
+    width: 43%;
+    margin: 3%;
+}
 
+#p2{
+    width: 40%;
+    margin: 5%;
+}
+
+#art2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 
 #art1 > div{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 15px;
 }
 article {
     width: 75%;

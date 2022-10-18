@@ -1,5 +1,81 @@
 body{
     background-color: rgb(102, 109, 162);
+    margin: 0px;
+}
+                                                                        /*header*/
+header{
+    background-color: rgb(110, 110, 173);
+    height: 100px;
+    margin-bottom: 20px;
+    
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 100px;
+    width: 70%;
+}
+
+nav div{
+    height: 80px;
+    width: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(171, 183, 194);
+    border-radius: 0px 12px 0px 12px;
+    display: flex;
+    
+}
+
+nav div a{
+    margin: auto;
+}
+
+                                                                    /*articles*/
+
+article {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px ;
+    background-color:rgb(127, 136, 200);
+    
+    
+
+}
+
+article:nth-child(odd){
+    box-shadow: 10px 10px 5px rgb(108, 85, 139);
+}
+
+article:nth-child(even){
+    box-shadow: -10px 10px 5px rgb(108, 85, 139);
+}
+
+                                                                                /*article 1*/
+
+#art1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#p1{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#art1 > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 15px;
 }
 
 .img1{
@@ -7,6 +83,17 @@ body{
     margin-right: auto;
     margin-left: auto;
 }
+
+                                                                                /*article 2*/
+
+#art2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
 .img2{
     width: 43%;
     margin: 3%;
@@ -17,25 +104,21 @@ body{
     margin: 5%;
 }
 
-#art2{
+                                                                                /*article 3*/
+
+#art3{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
 
-#art1 > div{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-bottom: 15px;
+.img3{
+    width: 30%;
+    margin: 5%;
 }
-article {
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 40px ;
-    background-color:rgb(127, 136, 200);
-    
 
+#p3{
+    width: 50%;
+    margin: 5%;
 }

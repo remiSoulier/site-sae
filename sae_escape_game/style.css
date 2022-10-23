@@ -1,3 +1,8 @@
+@font-face {
+    font-family: TheUnknown ;
+    src: url(Dead\ Font\ Walking.otf);
+}
+
 body{
     background-color: rgb(142, 142, 144);
     margin: 0px;
@@ -40,9 +45,9 @@ span{
     position: absolute;
     width: 16%;
     height: 120px;
-    top: 100px;
+    top: 90px;
     margin-left: 20%;
-    background-color: rgb(125, 33, 33);
+    background-color: rgb(148, 39, 39);
 }
 #histoire:hover~span{
     display: flex;
@@ -52,10 +57,23 @@ span{
     margin-top: auto;
     margin-bottom: auto;
 }
+span:hover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+nav a{
+    font-family: TheUnknown;
+}
 
 a{
     color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
 }
 
                                                                     /*articles*/
@@ -65,10 +83,14 @@ article {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 40px ;
-    background-color:rgb(88, 88, 88);
-    
-    
+    background-color:rgb(88, 88, 88);    
 
+}
+
+h2{
+    font-family: TheUnknown;
+    font-size: 35px;
+    color: white;
 }
 
 article:nth-child(odd){
@@ -89,6 +111,7 @@ article:nth-child(even){
 }
 
 #p1{
+    color: white;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -111,6 +134,13 @@ article:nth-child(even){
 
 #art2{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#art2 > div{
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -125,15 +155,23 @@ article:nth-child(even){
 #p2{
     width: 40%;
     margin: 5%;
+    color: white;
 }
 
                                                                                 /*article 3*/
 
 #art3{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+                                                                                
+#art3 > div{
+    display: flex;
     flex-direction: row;
-    align-items: center; 
-
+    align-items: center;
+    justify-content: center;
 }
 
 .img3{
@@ -144,8 +182,30 @@ article:nth-child(even){
 #p3{
     width: 50%;
     margin: 5%;
+    color: white;
 }
 
+                                                                                /*article 4*/
+
+#art4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#p4{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+    text-align: center;
+}
+
+.img4{
+    width: 60%;
+    margin-bottom:10px ;
+}
                                                                                 /*footer*/
 
 footer{
@@ -155,11 +215,24 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 80px;
 }
 
 footer p{
     width: 30%;
     margin: 4px;
     color: white;
+    text-align: center;
     
+}
+
+button {
+    display: inline;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    border-radius: 15px;
+    background-color: gray;
 }
